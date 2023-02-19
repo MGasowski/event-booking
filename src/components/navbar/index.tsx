@@ -8,7 +8,7 @@ import { Badge } from "../badge";
 
 export const Navbar = () => {
   return (
-    <div className="bg-neutral-00 shadow-xl w-full h-28 p-6 flex items-center fixed top-0">
+    <div className="bg-neutral-00 shadow-lg w-full h-28 p-6 flex items-center fixed top-0">
       <div className="flex flex-1 ">
         <div className="flex  items-center flex-row ">
           <div className="mr-1">
@@ -57,7 +57,7 @@ export const Navbar = () => {
       </div>
 
       <div className="flex">
-        <div className="relative w-10 h-10 overflow-hidden bg-gray-3 rounded-full dark:bg-gray-6">
+        <div className="relative w-10 h-10 overflow-hidden bg-gray-6 rounded-full dark:bg-gray-6">
           <svg
             className="absolute w-12 h-12 text-gray-400 -left-1"
             fill="#D8E2EB"

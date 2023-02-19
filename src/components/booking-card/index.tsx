@@ -27,8 +27,12 @@ export const BookingCard = ({
 }: BookingCardProps) => {
   return (
     <div className="flex h-64 shadow-lg hover:shadow-2xl cursor-pointer z-10 rounded-xl border border-neutral-03 p-4 mb-4">
-      <div className="w-1/4 ">
-        <img src={image} className="rounded-xl" />
+      <div>
+        <img
+          src={image}
+          className="rounded-xl h-full w-auto "
+          style={{ objectFit: "cover", aspectRatio: 1 }}
+        />
       </div>
       <div className="flex-1 relative pl-4 h-full">
         <div className="flex flex-col h-full">
